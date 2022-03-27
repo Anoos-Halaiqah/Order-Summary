@@ -1,0 +1,77 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: wheat;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ededed;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.container .summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+.container .summary img {
+  width: 100%;
+}
+.container .summary h2 {
+  font-size: 35px;
+}
+
+.container .summary p {
+  width: 350px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 18px;
+}
+
+.container .payment {
+  display: flex;
+  padding: 30px 80px;
+  align-items: center;
+}
+.container .payment img {
+  margin-right: 15px;
+}
+.container .payment p:first-of-type {
+  font-weight: bold;
+}
+.container .payment p:last-of-type {
+  color: hsl(224, 23%, 55%);
+}
+.container .payment a {
+  padding-left: 100px;
+}
+.container .proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  display: block;
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+}
+.container .cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  padding-top: 20px;
+}
